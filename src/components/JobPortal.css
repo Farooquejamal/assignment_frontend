@@ -1,0 +1,145 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .job-portal {
+    padding: 20px;
+  }
+  
+  .portal-header {
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 20px 0;
+  }
+  
+  .portal-header h1 {
+    color: #003399;
+  }
+  
+  .portal-header p {
+    color: #666;
+  }
+  
+  /* Search Section */
+  .search-section {
+    background: #dff4f7;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .search-bar {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .search-bar .btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-search {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .btn-view {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-register {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  /* Quick Search Section */
+  .quick-search {
+    text-align: center;
+  }
+  
+  .quick-search .tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .quick-search .tag {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
+  
+  /* Featured Jobs Section */
+  .featured-jobs {
+    margin: 20px 0;
+  }
+  
+  .featured-jobs h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .job-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .job-card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    width: 25%;
+    position: relative;
+  }
+  
+  .job-card .job-type {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: yellow;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 20px;
+  }
+  
+  .job-card h3 {
+    color: #003399;
+    font-size: 16px;
+    flex-wrap: wrap;
+  }
+  
+  .job-card p {
+    color: #666;
+    margin: 5px 0;
+    
+  }
+  
+  .btn-apply {
+    background-color: #7ad5d5;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  

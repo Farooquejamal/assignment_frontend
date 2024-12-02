@@ -1,0 +1,99 @@
+/* Navbar general styles */
+.navbar {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .logo-highlight {
+    color: blue;
+  }
+  
+  .subtitle {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .navbar-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .tagline {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .highlight {
+    color: blue;
+    font-weight: bold;
+  }
+  
+  .nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .login-btn,
+  .employer-btn {
+    padding: 5px 10px;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Banner styles */
+  .employers-banner {
+    width: 100%;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: white;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .banner-text {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .banner-actions {
+    display: flex;
+    gap: 10px;
+    padding-left:10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .btn {
+    background-color: yellow;
+    color: #333;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .sales-link {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
